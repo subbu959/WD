@@ -21,15 +21,11 @@ ul{
 }
 .sc .select{
 	width: 120%;
-	background-image:url('arrow.png');
     background-position:10% center;
 }
 .sc .select select{
 	background: transparent;
   line-height: 1;
-  border: 0;
-  padding: 0;
-  border-radius: 0;
   width: 120%;
   position: relative;
   z-index: 10;
@@ -244,4 +240,75 @@ ul{
 	top: 110px;
 	left: 295px;
 		font-size: 10px;
+}
+#bb1{
+	position: absolute;
+	border-style: none;
+	background-color:#EDEFF3;
+	left: 960px;
+	width: 165px;
+	height: 25px;
+	border-radius: 5px;
+}
+#bb2{
+	position: absolute;
+	border-style: none;
+	background-color:#EDEFF3;
+	left: 1160px;
+	width: 85px;
+	height: 25px;
+	border-radius: 5px;
+}
+#bb3{
+	position: absolute;
+	border-style: none;
+	background-color: #3A5799;
+	left: 1270px;
+	width: 125px;
+	height: 25px;
+	border-radius: 5px;
+
+}
+#bbci1{
+	color: red;
+position: absolute;
+	left: 965px;
+	top: 5px;
+}
+#bbci2{
+	color: white;
+position: absolute;
+	left: 1275px;
+	top: 5px;
+}
+#bbc1{
+	font-size: 15px;
+	position: absolute;
+	left: 995px;
+	top: 5px;
+	width: 190px;
+}
+#bbc2{
+	font-size: 15px;
+	position: absolute;
+	left: 1180px;
+	width: 90px;
+	top: 5px;
+}
+#bbc3{
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	left: 1300px;
+	width: 110px;
+	top: 5px;
+}
+.mhb{
+	position: absolute;
+	height: 70px;
+	width:750px;
+	border:1.5px solid grey; 
+	left: 370px;
+	top:60px;
+	border-radius: 10px;
 }
